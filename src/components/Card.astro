@@ -1,7 +1,8 @@
 ---
-
+const { title, price } = Astro.props;
 ---
 
-<article>
-  <h2>Hello</h2>
+<article class="bg-green-400">
+  <h2>{title}</h2>
+  <p>{price} €</p>
 </article>
